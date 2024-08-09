@@ -1,0 +1,2979 @@
+[
+    {
+        "id": "ca9656031769b061",
+        "type": "tab",
+        "label": "Global DataBase",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "24e43d21acc4834d",
+        "type": "group",
+        "z": "ca9656031769b061",
+        "name": "USERS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ccee359af194ea7f",
+            "6a096866162139ce",
+            "764a1e42f7f6417b",
+            "d5aa99e5625ca70d",
+            "440dc7141a1a06ad",
+            "28c6dc2d2a1ddc12",
+            "17db6d01dbc14227",
+            "fd7139d934d8e9b3",
+            "a7ab36823af9c4e7",
+            "1984f083123010ca",
+            "131e72ac4329cede"
+        ],
+        "x": 814,
+        "y": 79,
+        "w": 672,
+        "h": 282
+    },
+    {
+        "id": "ce2656188e7c20aa",
+        "type": "group",
+        "z": "ca9656031769b061",
+        "name": "SENSORS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "93d1b07a640c3590",
+            "4e31d14fad7a48d9",
+            "dbe4569cbff55edf",
+            "1dd17f4b7077b872",
+            "7b8b3b4d1346a529",
+            "d7f9db6e9a08dc28",
+            "3ce563cd50f12a09",
+            "c5691b393936b617",
+            "4aeb5152bc17d152",
+            "5d18bc980d164464",
+            "0fe682a9dd826a5c",
+            "dac5d168114cdf0c",
+            "fa11614f5d2670d2",
+            "a2e2d3c39745bccd",
+            "99a56662ba1a5c9b"
+        ],
+        "x": 74,
+        "y": 459,
+        "w": 652,
+        "h": 382
+    },
+    {
+        "id": "ead3228e17ae9c37",
+        "type": "group",
+        "z": "ca9656031769b061",
+        "name": "PROJECTS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9766e6c34e428851",
+            "c9c244bb32b703d7",
+            "94a6427429b7bad3",
+            "7af470037edd27f3",
+            "21b7d12187bdf664",
+            "ede9797365aa2597",
+            "fc132addf8e522d4",
+            "b7e88e934aa7cf3d",
+            "3ff8646b86ee9f65",
+            "8a7c86904c8dde59",
+            "1b0ebe15365552a2"
+        ],
+        "x": 1734,
+        "y": 499,
+        "w": 832,
+        "h": 222
+    },
+    {
+        "id": "0946170b1cadf747",
+        "type": "group",
+        "z": "ca9656031769b061",
+        "name": "EVENTTYPES",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ad1dcb454b3341b7",
+            "630e4c282ac99b52",
+            "d1068c0356c4f0af",
+            "bae4a5e2d98f6d42",
+            "4309c3d1590d3dfb",
+            "77c8eabac209494a",
+            "6a8c85559023a798",
+            "de850ea62a3f9f0c",
+            "557c0acc7cde0755",
+            "efc61a295b2f741a",
+            "d67ca6084a1301ce",
+            "1e64779ccc038723",
+            "a2c27a677f1b6d3e",
+            "8862932ed0943b57",
+            "eef0349e4e447be0"
+        ],
+        "x": 1794,
+        "y": 879,
+        "w": 1012,
+        "h": 302
+    },
+    {
+        "id": "0ab24920ce7852f2",
+        "type": "group",
+        "z": "ca9656031769b061",
+        "name": "TRIGGERCONSTANTS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "74d513b2a509804e",
+            "37a436a27f9e17bb",
+            "16afb14aa137fcc7",
+            "d23740613b661eaa",
+            "4ab44e9f3f763274",
+            "b8c13655cab0f47b",
+            "37950e19b98d1bbd",
+            "a37caa12d6120444",
+            "4f7d2a33e3cbc13d",
+            "4695553c395798ab",
+            "6fa03644408348fa"
+        ],
+        "x": 1834,
+        "y": 139,
+        "w": 892,
+        "h": 222
+    },
+    {
+        "id": "e3889a18df4e6dde",
+        "type": "group",
+        "z": "ca9656031769b061",
+        "name": "EVENTS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4b3ca5ba46775c55",
+            "fa9b4394f4125a07",
+            "de9971c84e3cc0d3",
+            "6ad6626c76624775",
+            "8bcadd7e51c4bf63",
+            "12f7637c8f5eeb68",
+            "bd693efe51b3e20e",
+            "56080d72e8058988",
+            "46d8e918027468cc",
+            "55a707a75f54d279",
+            "8a7e2b25151307ad",
+            "eeaed7502b2e8d75"
+        ],
+        "x": 534,
+        "y": 859,
+        "w": 832,
+        "h": 282
+    },
+    {
+        "id": "184188631c6dc6a5",
+        "type": "group",
+        "z": "ca9656031769b061",
+        "name": "PROJECTSENSORS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7cd58067f44a0182",
+            "19720ec142e23f86",
+            "cf1714f55b54f6ce",
+            "c68bc151d8ae3f9e",
+            "0717406abb0aeea1",
+            "b118b4dbe0679a61",
+            "189ce5e05cb1c9e2",
+            "a44976853e01cfc9",
+            "059d85057eef3251",
+            "0568e5ad97ba1781",
+            "2fa471ba233ca270",
+            "1d7a85735ef16eb4",
+            "2f27cbb510454130"
+        ],
+        "x": 774,
+        "y": 439,
+        "w": 892,
+        "h": 282
+    },
+    {
+        "id": "fcc26e3bd1cbf895",
+        "type": "group",
+        "z": "ca9656031769b061",
+        "name": "SENSORSTYPE",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6cd63e5571e0cfd6",
+            "128416e6e1a7ee7f",
+            "f6ded67bb0fe899c",
+            "b2d9017e9207e3c6",
+            "1797650859c252a3",
+            "f1593fac2d8d2021",
+            "a8cd2885d057f604",
+            "d6b7cdac37797e51",
+            "6a2ab76fbe27ea6d",
+            "06ded02b6133fbaf",
+            "83a84753f80092d5",
+            "51d628a89946c2f1",
+            "ec5776d1c01c0b1d"
+        ],
+        "x": -6,
+        "y": 79,
+        "w": 732,
+        "h": 282
+    },
+    {
+        "id": "87ed13d0ae284d56",
+        "type": "group",
+        "z": "ca9656031769b061",
+        "name": "SENSORRECORD",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "dec1369d308e4d34",
+            "10794711a81097ac",
+            "c3755752a706f364",
+            "c14ece66ba7d67b1",
+            "9261716b91828e98",
+            "9168db2370fa6bcc",
+            "6a65922d581b9fb1",
+            "79bd8c30a9641f40",
+            "415b17f16a57c624",
+            "9e542ee28979338e",
+            "d22c7181c3e43847",
+            "6359634c9e8da613"
+        ],
+        "x": 74,
+        "y": 1219,
+        "w": 692,
+        "h": 322
+    },
+    {
+        "id": "93d1b07a640c3590",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "Output Check",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "ccee359af194ea7f",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "24e43d21acc4834d",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "payload.userid",
+                "v": "1722324831203",
+                "vt": "num"
+            },
+            {
+                "p": "payload.ssid",
+                "v": "AGT-Interns",
+                "vt": "str"
+            },
+            {
+                "p": "payload.homegps",
+                "v": "(41.489500,2.286556)",
+                "vt": "str"
+            },
+            {
+                "p": "payload.username",
+                "v": "Clement",
+                "vt": "str"
+            },
+            {
+                "p": "payload.password",
+                "v": "*********",
+                "vt": "str"
+            },
+            {
+                "p": "payload.wifipassword",
+                "v": "rfrfrfrfr",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 930,
+        "y": 260,
+        "wires": [
+            [
+                "a7ab36823af9c4e7",
+                "1984f083123010ca"
+            ]
+        ]
+    },
+    {
+        "id": "6a096866162139ce",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "24e43d21acc4834d",
+        "name": "Display Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 930,
+        "y": 200,
+        "wires": [
+            [
+                "764a1e42f7f6417b"
+            ]
+        ]
+    },
+    {
+        "id": "764a1e42f7f6417b",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "24e43d21acc4834d",
+        "name": "USERS",
+        "query": "SELECT * FROM USERS",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1100,
+        "y": 200,
+        "wires": [
+            [
+                "fd7139d934d8e9b3"
+            ]
+        ]
+    },
+    {
+        "id": "d5aa99e5625ca70d",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "24e43d21acc4834d",
+        "name": "USERS",
+        "query": "DROP TABLE IF EXISTS USERS;",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1100,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "440dc7141a1a06ad",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "24e43d21acc4834d",
+        "name": "Delete Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 930,
+        "y": 160,
+        "wires": [
+            [
+                "d5aa99e5625ca70d"
+            ]
+        ]
+    },
+    {
+        "id": "28c6dc2d2a1ddc12",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "24e43d21acc4834d",
+        "name": "Create Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 930,
+        "y": 120,
+        "wires": [
+            [
+                "17db6d01dbc14227"
+            ]
+        ]
+    },
+    {
+        "id": "17db6d01dbc14227",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "24e43d21acc4834d",
+        "name": "USERS",
+        "query": "CREATE TABLE USERS(     \n    USERID BIGINT PRIMARY KEY,  \n    USERNAME TEXT NOT NULL,  \n    PASSWORD TEXT NOT NULL,\n    SSID TEXT NOT NULL,     \n    WIFIPASSWORD TEXT NOT NULL,   \n    HOMEGPS TEXT NOT NULL\n);\n",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1100,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd7139d934d8e9b3",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "24e43d21acc4834d",
+        "name": "debug 283",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1350,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a7ab36823af9c4e7",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "24e43d21acc4834d",
+        "name": "write a Query",
+        "func": "var userId = msg.payload.userid;\nvar username = msg.payload.username;\nvar password = msg.payload.password\nvar ssid = msg.payload.ssid;\nvar wifiPassword = msg.payload.wifipassword;\nvar homeGPS = msg.payload.homegps;\n\nvar sql = `INSERT INTO USERS (\n    USERID,\n    USERNAME,\n    PASSWORD,\n    SSID, \n    WIFIPASSWORD,\n    HOMEGPS) \n    VALUES (\n        '${userId}', \n        '${username}', \n        '${password}',\n        '${ssid}', \n        '${wifiPassword}', \n        '${homeGPS}'\n    );`\n    ;\n\n//msg.topic = sql;\n//return msg;\n\n\n\nmsg.query = sql;\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 260,
+        "wires": [
+            [
+                "131e72ac4329cede"
+            ]
+        ]
+    },
+    {
+        "id": "1984f083123010ca",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "24e43d21acc4834d",
+        "name": "debug 284",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "4e31d14fad7a48d9",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "SENSORS",
+        "query": "CREATE TABLE SENSORS(  \n    SENSORID TEXT PRIMARY KEY,\n    SENSORNAME TEXT NOT NULL,    \n    SENSORTYPE TEXT NOT NULL,      \n    SENSORGPS TEXT NOT NULL,\n    SENSORIP TEXT NOT NULL,\n    USERID BIGINT,\n    FOREIGN KEY (SENSORNAME) REFERENCES SENSORRECORD(SENSORNAME),\n    FOREIGN KEY (USERID) REFERENCES USERS(USERID)\n);",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 390,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dbe4569cbff55edf",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "Create Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 500,
+        "wires": [
+            [
+                "4e31d14fad7a48d9"
+            ]
+        ]
+    },
+    {
+        "id": "1dd17f4b7077b872",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "SENSORS",
+        "query": "DROP TABLE IF EXISTS SENSORS",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 390,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7b8b3b4d1346a529",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "Delete Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 540,
+        "wires": [
+            [
+                "1dd17f4b7077b872"
+            ]
+        ]
+    },
+    {
+        "id": "d7f9db6e9a08dc28",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "SENSORS",
+        "query": "SELECT * FROM SENSORS ORDER BY SENSORID DESC LIMIT 100;",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 390,
+        "y": 580,
+        "wires": [
+            [
+                "93d1b07a640c3590"
+            ]
+        ]
+    },
+    {
+        "id": "3ce563cd50f12a09",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "Display Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 580,
+        "wires": [
+            [
+                "d7f9db6e9a08dc28"
+            ]
+        ]
+    },
+    {
+        "id": "c5691b393936b617",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "SENSORS",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 610,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4aeb5152bc17d152",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "payload[0].sensorId",
+                "v": "bbb",
+                "vt": "str"
+            },
+            {
+                "p": "payload[0].sensorType",
+                "v": "zfe",
+                "vt": "str"
+            },
+            {
+                "p": "payload[0].sensorName",
+                "v": "Garden-1",
+                "vt": "str"
+            },
+            {
+                "p": "payload[0].gpsCoordinate",
+                "v": "pm",
+                "vt": "str"
+            },
+            {
+                "p": "payload[1].ip",
+                "v": "192.168.5.139:1880",
+                "vt": "str"
+            },
+            {
+                "p": "payload[0].userId",
+                "v": "1722324831203",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 640,
+        "wires": [
+            [
+                "5d18bc980d164464",
+                "0fe682a9dd826a5c",
+                "dac5d168114cdf0c"
+            ]
+        ]
+    },
+    {
+        "id": "5d18bc980d164464",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "Add New Sensors",
+        "func": "var sensorId = msg.payload[0].sensorId;\nvar sensorType = msg.payload[0].sensorType;\nvar sensorName = msg.payload[0].sensorName;\nvar ip = msg.payload[1].ip;\nvar gpsCoordinate = msg.payload[0].gpsCoordinate;\nvar userId = msg.payload[0].userId;\n\n// Construct the SQL INSERT statement using parameterized queries for safety\nvar sqlQuery = `\n    INSERT INTO SENSORS (\n        SENSORID, \n        SENSORNAME,\n        SENSORTYPE, \n        SENSORGPS,\n        SENSORIP, \n        USERID\n    ) VALUES (\n        '${sensorId}', \n        '${sensorName}', \n        '${sensorType}', \n        '${gpsCoordinate}',\n        '${ip}', \n        '${userId}'\n    );\n`;\n\n// Assign the query and parameters to msg for execution\nmsg.query = sqlQuery;\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 640,
+        "wires": [
+            [
+                "c5691b393936b617"
+            ]
+        ]
+    },
+    {
+        "id": "0fe682a9dd826a5c",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "debug 285",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "dac5d168114cdf0c",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "d": true,
+        "g": "ce2656188e7c20aa",
+        "name": "Add New Sensors",
+        "func": "// Hardcoded SQL INSERT statement with placeholders\nvar sqlQuery = `\n    INSERT INTO SENSORS (\n        SENSORID, \n        SENSORTYPE, \n        SENSORNAME, \n        IP, \n        GPSCORD\n    ) VALUES (\n        $1, \n        $2, \n        $3, \n        $4, \n        $5\n    );\n`;\n\n// Hardcoded parameters\nvar params = ['bzbzs', 'zfe', 'AGT-Interns', '192.168.5.139:1880', 'pm'];\n\n// Assign the query and parameters to msg for execution\nmsg.query = sqlQuery;\nmsg.params = params;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 680,
+        "wires": [
+            [
+                "c5691b393936b617"
+            ]
+        ]
+    },
+    {
+        "id": "131e72ac4329cede",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "24e43d21acc4834d",
+        "name": "USERS",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1400,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9766e6c34e428851",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "ead3228e17ae9c37",
+        "name": "Create Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1870,
+        "y": 540,
+        "wires": [
+            [
+                "1b0ebe15365552a2"
+            ]
+        ]
+    },
+    {
+        "id": "c9c244bb32b703d7",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "ead3228e17ae9c37",
+        "name": "Delete Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1870,
+        "y": 580,
+        "wires": [
+            [
+                "8a7c86904c8dde59"
+            ]
+        ]
+    },
+    {
+        "id": "94a6427429b7bad3",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "ead3228e17ae9c37",
+        "name": "Display Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1870,
+        "y": 620,
+        "wires": [
+            [
+                "3ff8646b86ee9f65"
+            ]
+        ]
+    },
+    {
+        "id": "7af470037edd27f3",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "ead3228e17ae9c37",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "payload.projectId",
+                "v": "1722324946399",
+                "vt": "num"
+            },
+            {
+                "p": "payload.projectName",
+                "v": "FloodDetector",
+                "vt": "str"
+            },
+            {
+                "p": "payload.userId",
+                "v": "1722324831203",
+                "vt": "str"
+            },
+            {
+                "p": "payload.alert",
+                "v": "Motion",
+                "vt": "str"
+            },
+            {
+                "p": "payload.alarm",
+                "v": "Intrusion",
+                "vt": "str"
+            },
+            {
+                "p": "payload.alertType",
+                "v": "Light",
+                "vt": "str"
+            },
+            {
+                "p": "payload.alarmType",
+                "v": "Noise",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1850,
+        "y": 680,
+        "wires": [
+            [
+                "21b7d12187bdf664"
+            ]
+        ]
+    },
+    {
+        "id": "21b7d12187bdf664",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "ead3228e17ae9c37",
+        "name": "Write a Query",
+        "func": "var projectId = msg.payload.projectId;\nvar projectName  = msg.payload.projectName; \nvar userId = msg.payload.userId;\nvar alert = msg.payload.alert;\nvar alarm = msg.payload.alarm; \nvar alertType = msg.payload.alertType;\nvar alarmType = msg.payload.alarmType;\n\n\nvar recordData = `INSERT INTO PROJECTS (\n    PROJECTID,\n    PROJECTNAME,\n    USERID,\n    ALERT,\n    ALARM,\n    ALERTTYPE,\n    ALARMTYPE\n    )\n    VALUES (\n        '${projectId}',\n        '${projectName}',\n        '${userId}',\n        '${alert}',\n        '${alarm}',\n        '${alertType}',\n        '${alarmType}'\n    );`;\n\n\n\nmsg.query = recordData;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2080,
+        "y": 680,
+        "wires": [
+            [
+                "fc132addf8e522d4"
+            ]
+        ]
+    },
+    {
+        "id": "ede9797365aa2597",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "ead3228e17ae9c37",
+        "name": "Query Chek",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2450,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "fc132addf8e522d4",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "ead3228e17ae9c37",
+        "name": "PROJECTS",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2290,
+        "y": 680,
+        "wires": [
+            [
+                "ede9797365aa2597"
+            ]
+        ]
+    },
+    {
+        "id": "b7e88e934aa7cf3d",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "ead3228e17ae9c37",
+        "name": "OutputCheck",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2330,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "3ff8646b86ee9f65",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "ead3228e17ae9c37",
+        "name": "PROJECTS",
+        "query": "SELECT * FROM PROJECTS;",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2130,
+        "y": 620,
+        "wires": [
+            [
+                "b7e88e934aa7cf3d"
+            ]
+        ]
+    },
+    {
+        "id": "8a7c86904c8dde59",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "ead3228e17ae9c37",
+        "name": "PROJECTS",
+        "query": "DROP TABLE IF EXISTS PROJECTS",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2170,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b0ebe15365552a2",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "ead3228e17ae9c37",
+        "name": "PROJECTS",
+        "query": "CREATE TABLE PROJECTS (     \n    PROJECTID BIGINT PRIMARY KEY,\n    PROJECTNAME TEXT,\n    USERID BIGINT, \n    ALERT TEXT, \n    ALARM TEXT,\n    ALERTTYPE TEXT,\n    ALARMTYPE TEXT,\n    FOREIGN KEY (USERID) REFERENCES USERS(USERID)\n);",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2190,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ad1dcb454b3341b7",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "Create Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1930,
+        "y": 920,
+        "wires": [
+            [
+                "d67ca6084a1301ce"
+            ]
+        ]
+    },
+    {
+        "id": "630e4c282ac99b52",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "Delete Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1930,
+        "y": 960,
+        "wires": [
+            [
+                "efc61a295b2f741a"
+            ]
+        ]
+    },
+    {
+        "id": "d1068c0356c4f0af",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "Display Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1930,
+        "y": 1000,
+        "wires": [
+            [
+                "557c0acc7cde0755"
+            ]
+        ]
+    },
+    {
+        "id": "bae4a5e2d98f6d42",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "payload.eventName",
+                "v": "Intrusion",
+                "vt": "str"
+            },
+            {
+                "p": "payload.eventType",
+                "v": "Alarm",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1800",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1920,
+        "y": 1060,
+        "wires": [
+            [
+                "4309c3d1590d3dfb"
+            ]
+        ]
+    },
+    {
+        "id": "4309c3d1590d3dfb",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "Write a Query",
+        "func": "var eventName = msg.payload.eventName;\nvar eventType = msg.payload.eventType;\n\nvar recordData = `INSERT INTO EVENTTYPES (\n    EVENTNAME,\n    EVENTTYPE\n    )\n    VALUES (\n        '${eventName}',\n        '${eventType}'\n    );`;\n\n\n\nmsg.query = recordData;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2120,
+        "y": 1060,
+        "wires": [
+            [
+                "6a8c85559023a798"
+            ]
+        ]
+    },
+    {
+        "id": "77c8eabac209494a",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "Query Chek",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2510,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "6a8c85559023a798",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "EVENTTYPES",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2320,
+        "y": 1060,
+        "wires": [
+            [
+                "77c8eabac209494a"
+            ]
+        ]
+    },
+    {
+        "id": "de850ea62a3f9f0c",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "OutputCheck",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2390,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "557c0acc7cde0755",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "EVENTTYPES",
+        "query": "SELECT * FROM EVENTTYPES;",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2200,
+        "y": 1000,
+        "wires": [
+            [
+                "de850ea62a3f9f0c"
+            ]
+        ]
+    },
+    {
+        "id": "efc61a295b2f741a",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "EVENTTYPES",
+        "query": "DROP TABLE IF EXISTS EVENTTYPES",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2240,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d67ca6084a1301ce",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "EVENTTYPES",
+        "query": " CREATE TABLE EVENTTYPES (  \n    EVENTNAME TEXT PRIMARY KEY,   \n    EVENTTYPE TEXT\n);",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2260,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74d513b2a509804e",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "0ab24920ce7852f2",
+        "name": "Create Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1970,
+        "y": 180,
+        "wires": [
+            [
+                "6fa03644408348fa"
+            ]
+        ]
+    },
+    {
+        "id": "37a436a27f9e17bb",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "0ab24920ce7852f2",
+        "name": "Delete Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1970,
+        "y": 220,
+        "wires": [
+            [
+                "4695553c395798ab"
+            ]
+        ]
+    },
+    {
+        "id": "16afb14aa137fcc7",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "0ab24920ce7852f2",
+        "name": "Display Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1970,
+        "y": 260,
+        "wires": [
+            [
+                "4f7d2a33e3cbc13d"
+            ]
+        ]
+    },
+    {
+        "id": "d23740613b661eaa",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "0ab24920ce7852f2",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "payload.triggerName",
+                "v": "maxDistance",
+                "vt": "str"
+            },
+            {
+                "p": "payload.triggerValue",
+                "v": "20",
+                "vt": "num"
+            }
+        ],
+        "repeat": "1800",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1960,
+        "y": 320,
+        "wires": [
+            [
+                "4ab44e9f3f763274"
+            ]
+        ]
+    },
+    {
+        "id": "4ab44e9f3f763274",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "0ab24920ce7852f2",
+        "name": "Write a Query",
+        "func": "var triggerName = msg.payload.triggerName;\nvar triggerValue = msg.payload.triggerValue;\n\nvar recordData = `INSERT INTO TRIGGERCONSTANTS (\n    TRIGGERNAME,\n    TRIGGERVALUE\n    )\n    VALUES (\n        '${triggerName}',\n        '${triggerValue}'\n    );`;\n\n\n\nmsg.query = recordData;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2160,
+        "y": 320,
+        "wires": [
+            [
+                "37950e19b98d1bbd"
+            ]
+        ]
+    },
+    {
+        "id": "b8c13655cab0f47b",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "0ab24920ce7852f2",
+        "name": "Query Chek",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2610,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "37950e19b98d1bbd",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "0ab24920ce7852f2",
+        "name": "TRIGGERCONSTANTS",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2390,
+        "y": 320,
+        "wires": [
+            [
+                "b8c13655cab0f47b"
+            ]
+        ]
+    },
+    {
+        "id": "a37caa12d6120444",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "0ab24920ce7852f2",
+        "name": "OutputCheck",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2490,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "4f7d2a33e3cbc13d",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "0ab24920ce7852f2",
+        "name": "TRIGGERCONSTANTS",
+        "query": "SELECT * FROM TRIGGERCONSTANTS;",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2270,
+        "y": 260,
+        "wires": [
+            [
+                "a37caa12d6120444"
+            ]
+        ]
+    },
+    {
+        "id": "4695553c395798ab",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "0ab24920ce7852f2",
+        "name": "TRIGGERCONSTANTS",
+        "query": "DROP TABLE IF EXISTS TRIGGERCONSTANTS",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2310,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6fa03644408348fa",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "0ab24920ce7852f2",
+        "name": "TRIGGERCONSTANTS",
+        "query": " CREATE TABLE TRIGGERCONSTANTS (  \n    TRIGGERNAME TEXT PRIMARY KEY,   \n    TRIGGERVALUE INT\n    );",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2330,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b3ca5ba46775c55",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "Create Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 670,
+        "y": 900,
+        "wires": [
+            [
+                "8a7e2b25151307ad"
+            ]
+        ]
+    },
+    {
+        "id": "fa9b4394f4125a07",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "Delete Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 670,
+        "y": 940,
+        "wires": [
+            [
+                "55a707a75f54d279"
+            ]
+        ]
+    },
+    {
+        "id": "de9971c84e3cc0d3",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "Display Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 670,
+        "y": 980,
+        "wires": [
+            [
+                "46d8e918027468cc"
+            ]
+        ]
+    },
+    {
+        "id": "6ad6626c76624775",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "payload.timeStamp",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "payload.sensorId",
+                "v": "bbb",
+                "vt": "str"
+            },
+            {
+                "p": "payload.projectId",
+                "v": "1722324946399",
+                "vt": "num"
+            },
+            {
+                "p": "payload.eventName",
+                "v": "Intrusion",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1800",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 660,
+        "y": 1040,
+        "wires": [
+            [
+                "8bcadd7e51c4bf63"
+            ]
+        ]
+    },
+    {
+        "id": "8bcadd7e51c4bf63",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "Write a Query",
+        "func": "var timeStamp  = msg.payload.timeStamp; \nvar sensorId = msg.payload.sensorId;\nvar eventName = msg.payload.eventName;\nvar projectId = msg.payload.projectId;\n\nvar recordData = `INSERT INTO EVENTS (\n    TIMESTAMP,\n    EVENTNAME,\n    SENSORID,\n    PROJECTID\n    )\n    VALUES (\n        '${timeStamp}',\n        '${eventName}',\n        '${sensorId}',\n        '${projectId}'\n    );`;\n\n\n\nmsg.query = recordData;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 1040,
+        "wires": [
+            [
+                "bd693efe51b3e20e",
+                "eeaed7502b2e8d75"
+            ]
+        ]
+    },
+    {
+        "id": "12f7637c8f5eeb68",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "Query Chek",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1250,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "bd693efe51b3e20e",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "EVENTS",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1080,
+        "y": 1040,
+        "wires": [
+            [
+                "12f7637c8f5eeb68"
+            ]
+        ]
+    },
+    {
+        "id": "56080d72e8058988",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "OutputCheck",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "46d8e918027468cc",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "EVENTS",
+        "query": "SELECT * FROM EVENTS ORDER BY TIMESTAMP DESC LIMIT 100;",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 920,
+        "y": 980,
+        "wires": [
+            [
+                "56080d72e8058988"
+            ]
+        ]
+    },
+    {
+        "id": "55a707a75f54d279",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "EVENTS",
+        "query": "DROP TABLE IF EXISTS EVENTS",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 960,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8a7e2b25151307ad",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "EVENTS",
+        "query": " CREATE TABLE EVENTS (\n    TIMESTAMP BIGINT PRIMARY KEY,\n    EVENTNAME TEXT,\n    SENSORID TEXT,     \n    PROJECTID BIGINT,\n    FOREIGN KEY (SENSORID) REFERENCES SENSORS(SENSORID),\n    FOREIGN KEY (PROJECTID) REFERENCES PROJECTS(PROJECTID),\n    FOREIGN KEY (EVENTNAME) REFERENCES EVENTTYPES(EVENTNAME)\n);",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 980,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7cd58067f44a0182",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "Create Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 910,
+        "y": 480,
+        "wires": [
+            [
+                "2fa471ba233ca270"
+            ]
+        ]
+    },
+    {
+        "id": "19720ec142e23f86",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "Delete Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 910,
+        "y": 580,
+        "wires": [
+            [
+                "0568e5ad97ba1781"
+            ]
+        ]
+    },
+    {
+        "id": "cf1714f55b54f6ce",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "Display Table",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 910,
+        "y": 620,
+        "wires": [
+            [
+                "059d85057eef3251"
+            ]
+        ]
+    },
+    {
+        "id": "c68bc151d8ae3f9e",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "payload.projectsensorId",
+                "v": "1722330093404-0",
+                "vt": "str"
+            },
+            {
+                "p": "payload.sensorId",
+                "v": "bbb",
+                "vt": "str"
+            },
+            {
+                "p": "payload.projectId",
+                "v": "1722324946399",
+                "vt": "num"
+            }
+        ],
+        "repeat": "1800",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 900,
+        "y": 680,
+        "wires": [
+            [
+                "0717406abb0aeea1"
+            ]
+        ]
+    },
+    {
+        "id": "0717406abb0aeea1",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "Write a Query",
+        "func": "var projectsensorId = msg.payload.projectsensorId\nvar projectId = msg.payload.projectId;\nvar sensorId = msg.payload.sensorId;\n\n\nvar recordData = `INSERT INTO PROJECTSENSORS (\n    PROJECTSENSORID,\n    SENSORID,\n    PROJECTID\n    )\n    VALUES (\n        '${projectsensorId}',\n        '${sensorId}',\n        '${projectId}'\n    );`;\n\n\n\nmsg.query = recordData;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 680,
+        "wires": [
+            [
+                "189ce5e05cb1c9e2"
+            ]
+        ]
+    },
+    {
+        "id": "b118b4dbe0679a61",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "Query Chek",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1550,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "189ce5e05cb1c9e2",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "PROJECTSENSORS",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1360,
+        "y": 680,
+        "wires": [
+            [
+                "b118b4dbe0679a61"
+            ]
+        ]
+    },
+    {
+        "id": "a44976853e01cfc9",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "OutputCheck",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1390,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "059d85057eef3251",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "PROJECTSENSORS",
+        "query": "SELECT * FROM PROJECTSENSORS;",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1200,
+        "y": 620,
+        "wires": [
+            [
+                "a44976853e01cfc9"
+            ]
+        ]
+    },
+    {
+        "id": "0568e5ad97ba1781",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "PROJECTSENSORS",
+        "query": "DROP TABLE IF EXISTS PROJECTSENSORS",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1240,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2fa471ba233ca270",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "PROJECTSENSORS",
+        "query": "CREATE TABLE PROJECTSENSORS (     \n    PROJECTSENSORID TEXT PRIMARY KEY,\n    SENSORID TEXT,\n    PROJECTID BIGINT,\n    FOREIGN KEY (SENSORID) REFERENCES SENSORS(SENSORID),\n    FOREIGN KEY (PROJECTID) REFERENCES PROJECTS(PROJECTID)\n);",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1260,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eeaed7502b2e8d75",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "e3889a18df4e6dde",
+        "name": "Query Chek",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "query",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "f8bfa61476e8259b",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "d": true,
+        "name": "",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1570,
+        "y": 1700,
+        "wires": [
+            [
+                "e9b8bde2b8421cd6"
+            ]
+        ]
+    },
+    {
+        "id": "e9b8bde2b8421cd6",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "d": true,
+        "name": "debug 306",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1770,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "74670b5d7f93922f",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1180,
+        "y": 1700,
+        "wires": [
+            [
+                "4c17dc83dc33fbd9"
+            ]
+        ]
+    },
+    {
+        "id": "4c17dc83dc33fbd9",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "d": true,
+        "name": "function 187",
+        "func": "\n\nvar projectsensorId = msg.payload.projectsensorId\nvar projectId = msg.payload.projectId;\nvar sensorId = msg.payload.sensorId;\n\n\nvar recordData = `INSERT INTO PROJECTSENSORS (\n    PROJECTSENSORID,\n    SENSORID,\n    PROJECTID\n) VALUES (\n    '1722331055768-0',\n    'aaa',\n    '1722324946399'\n);\n\n\nINSERT INTO PROJECTSENSORS (\n    PROJECTSENSORID,\n    SENSORID,\n    PROJECTID\n) VALUES (\n    '1722331055768-1',\n    'bbb',\n    '1722324946399'\n);`;\n\n\n\nmsg.query = recordData;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 1700,
+        "wires": [
+            [
+                "f8bfa61476e8259b",
+                "f29746e8ec0e55b9"
+            ]
+        ]
+    },
+    {
+        "id": "f29746e8ec0e55b9",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "d": true,
+        "name": "debug 307",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "query",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1510,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "1d7a85735ef16eb4",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "PROJECTSENSORS",
+        "query": "ALTER TABLE PROJECTSENSORS\nADD CONSTRAINT unique_sensor_project UNIQUE (SENSORID, PROJECTID);",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1260,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f27cbb510454130",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "184188631c6dc6a5",
+        "name": "Unique couple SensorId ProjectId",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 970,
+        "y": 520,
+        "wires": [
+            [
+                "1d7a85735ef16eb4"
+            ]
+        ]
+    },
+    {
+        "id": "1e64779ccc038723",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1800",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1920,
+        "y": 1140,
+        "wires": [
+            [
+                "a2c27a677f1b6d3e"
+            ]
+        ]
+    },
+    {
+        "id": "a2c27a677f1b6d3e",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "Query for detectIntrusion Project",
+        "func": "var eventName = msg.payload.eventName;\nvar eventType = msg.payload.eventType;\n\n\nvar recordData = `\nINSERT INTO EVENTTYPES (\n    EVENTNAME,\n    EVENTTYPE\n    )\n    VALUES (\n        'Motion',\n        'Alert'\n    );\nINSERT INTO EVENTTYPES (\n    EVENTNAME,\n    EVENTTYPE\n    )\n    VALUES (\n        'PathDetected',\n        'Alarm'\n    );\nINSERT INTO EVENTTYPES (\n    EVENTNAME,\n    EVENTTYPE\n    )\n    VALUES (\n        'MaxDistance',\n        'Alarm'\n    );`;\n\n\n\nmsg.query = recordData;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2170,
+        "y": 1140,
+        "wires": [
+            [
+                "eef0349e4e447be0"
+            ]
+        ]
+    },
+    {
+        "id": "8862932ed0943b57",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "Query Chek",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2690,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "eef0349e4e447be0",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "0946170b1cadf747",
+        "name": "EVENTTYPES",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 2460,
+        "y": 1140,
+        "wires": [
+            [
+                "8862932ed0943b57"
+            ]
+        ]
+    },
+    {
+        "id": "6cd63e5571e0cfd6",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "Output Check",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "128416e6e1a7ee7f",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "SENSORSTYPE",
+        "query": "CREATE TABLE SENSORSTYPE(     \n    SENSORTYPE TEXT NOT NULL PRIMARY KEY,      \n    DETECTION TEXT\n);",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 350,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f6ded67bb0fe899c",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "Create Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "128416e6e1a7ee7f"
+            ]
+        ]
+    },
+    {
+        "id": "b2d9017e9207e3c6",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "SENSORSTYPE",
+        "query": "DROP TABLE IF EXISTS SENSORSTYPE",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 350,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1797650859c252a3",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "Delete Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "b2d9017e9207e3c6"
+            ]
+        ]
+    },
+    {
+        "id": "f1593fac2d8d2021",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "SENSORSTYPE",
+        "query": "SELECT * FROM SENSORSTYPE;",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 350,
+        "y": 200,
+        "wires": [
+            [
+                "6cd63e5571e0cfd6"
+            ]
+        ]
+    },
+    {
+        "id": "a8cd2885d057f604",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "Display Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "f1593fac2d8d2021"
+            ]
+        ]
+    },
+    {
+        "id": "d6b7cdac37797e51",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "SENSORSTYPE",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 570,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6a2ab76fbe27ea6d",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "payload.sensorType",
+                "v": "shellymotionsensor",
+                "vt": "str"
+            },
+            {
+                "p": "payload.detection",
+                "v": "Motion",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "06ded02b6133fbaf"
+            ]
+        ]
+    },
+    {
+        "id": "06ded02b6133fbaf",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "Add New Sensor Types",
+        "func": "\nvar sensorType = msg.payload.sensorType;\nvar detection = msg.payload.detection\n\n// Construct the SQL INSERT statement using parameterized queries for safety\nvar sqlQuery = `\n    INSERT INTO SENSORSTYPE (\n        SENSORTYPE, \n        DETECTION\n    ) VALUES (\n        '${sensorType}', \n        '${detection}'\n    );\n`;\n\n// Assign the query and parameters to msg for execution\nmsg.query = sqlQuery;\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 260,
+        "wires": [
+            [
+                "d6b7cdac37797e51"
+            ]
+        ]
+    },
+    {
+        "id": "ec5776d1c01c0b1d",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "SENSORSTYPE",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 610,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "83a84753f80092d5",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "payload.sensorType",
+                "v": "shellymotionsensor",
+                "vt": "str"
+            },
+            {
+                "p": "payload.detection",
+                "v": "Motion",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 320,
+        "wires": [
+            [
+                "51d628a89946c2f1"
+            ]
+        ]
+    },
+    {
+        "id": "51d628a89946c2f1",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "fcc26e3bd1cbf895",
+        "name": "Add New Sensors (All in once)",
+        "func": "\n// Construct the SQL INSERT statement using parameterized queries for safety\nvar sqlQuery = `\nINSERT INTO SENSORSTYPE (\n    SENSORTYPE, \n    DETECTION\n    ) VALUES (\n        'shellymotionsensor', \n        'Motion'\n    );\nINSERT INTO SENSORSTYPE (\n        SENSORTYPE, \n        DETECTION\n    ) VALUES (\n        'shellymotion2', \n        'Motion'\n    );\nINSERT INTO SENSORSTYPE (\n        SENSORTYPE, \n        DETECTION\n    ) VALUES (\n        'shellyflood', \n        'Flood'\n    );\n\n`;\n\n// Assign the query and parameters to msg for execution\nmsg.query = sqlQuery;\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 320,
+        "wires": [
+            [
+                "ec5776d1c01c0b1d"
+            ]
+        ]
+    },
+    {
+        "id": "fa11614f5d2670d2",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "sensorid",
+                "v": "BC33AC023146",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 800,
+        "wires": [
+            [
+                "a2e2d3c39745bccd"
+            ]
+        ]
+    },
+    {
+        "id": "a2e2d3c39745bccd",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "Delete Sensor",
+        "func": "\nvar userId = flow.get('user_id'); // Get the flow variable 'user_id'\nvar sensorId = msg.sensorid;\n\n// Construct the SQL DELETE statement\nvar sqlQuery = `\nDELETE FROM PROJECTSENSORS\nWHERE sensorId = '${sensorId}';\nDELETE FROM EVENTS\nWHERE sensorId = '${sensorId}';\nDELETE FROM SENSORS \nWHERE sensorId = '${sensorId}';\n`;\n\nmsg.query= sqlQuery;\n\n\nreturn msg;\n\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 800,
+        "wires": [
+            [
+                "99a56662ba1a5c9b"
+            ]
+        ]
+    },
+    {
+        "id": "99a56662ba1a5c9b",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "ce2656188e7c20aa",
+        "name": "SENSORS",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 630,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dec1369d308e4d34",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "87ed13d0ae284d56",
+        "name": "Output Check",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "10794711a81097ac",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "87ed13d0ae284d56",
+        "name": "SENSORRECORD",
+        "query": "CREATE TABLE SENSORRECORD(\n    SENSORNAME TEXT NOT NULL PRIMARY KEY,      \n    SENSORGPS TEXT NOT NULL,\n    USERID BIGINT,\n    FOREIGN KEY (USERID) REFERENCES USERS(USERID)\n);",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 410,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3755752a706f364",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "87ed13d0ae284d56",
+        "name": "Create Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 1260,
+        "wires": [
+            [
+                "10794711a81097ac"
+            ]
+        ]
+    },
+    {
+        "id": "c14ece66ba7d67b1",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "87ed13d0ae284d56",
+        "name": "SENSORRECORD",
+        "query": "DROP TABLE IF EXISTS SENSORRECORD",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 410,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9261716b91828e98",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "87ed13d0ae284d56",
+        "name": "Delete Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 1300,
+        "wires": [
+            [
+                "c14ece66ba7d67b1"
+            ]
+        ]
+    },
+    {
+        "id": "9168db2370fa6bcc",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "87ed13d0ae284d56",
+        "name": "SENSORRECORD",
+        "query": "SELECT * FROM SENSORRECORD;",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 410,
+        "y": 1340,
+        "wires": [
+            [
+                "dec1369d308e4d34"
+            ]
+        ]
+    },
+    {
+        "id": "6a65922d581b9fb1",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "87ed13d0ae284d56",
+        "name": "Display Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 1340,
+        "wires": [
+            [
+                "9168db2370fa6bcc"
+            ]
+        ]
+    },
+    {
+        "id": "79bd8c30a9641f40",
+        "type": "postgresql",
+        "z": "ca9656031769b061",
+        "g": "87ed13d0ae284d56",
+        "name": "SENSORRECORD",
+        "query": "",
+        "postgreSQLConfig": "ead502047907d635",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 630,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "415b17f16a57c624",
+        "type": "inject",
+        "z": "ca9656031769b061",
+        "g": "87ed13d0ae284d56",
+        "name": "Sample Input",
+        "props": [
+            {
+                "p": "payload[0].sensorId",
+                "v": "bbb",
+                "vt": "str"
+            },
+            {
+                "p": "payload[0].sensorType",
+                "v": "zfe",
+                "vt": "str"
+            },
+            {
+                "p": "payload[0].sensorName",
+                "v": "Garden-1",
+                "vt": "str"
+            },
+            {
+                "p": "payload[0].gpsCoordinate",
+                "v": "pm",
+                "vt": "str"
+            },
+            {
+                "p": "payload[1].ip",
+                "v": "192.168.5.139:1880",
+                "vt": "str"
+            },
+            {
+                "p": "payload[0].userId",
+                "v": "1722324831203",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 1400,
+        "wires": [
+            [
+                "9e542ee28979338e",
+                "d22c7181c3e43847",
+                "6359634c9e8da613"
+            ]
+        ]
+    },
+    {
+        "id": "9e542ee28979338e",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "g": "87ed13d0ae284d56",
+        "name": "Add New Sensors",
+        "func": "\nvar sensorName = msg.payload[0].sensorName;\nvar gpsCoordinate = msg.payload[0].gpsCoordinate;\nvar userId = msg.payload[0].userId;\n\n// Construct the SQL INSERT statement using parameterized queries for safety\nvar sqlQuery = `\n    INSERT INTO SENSORRECORD (\n        SENSORNAME,\n        SENSORGPS,\n        USERID\n    ) VALUES (\n        '${sensorName}', \n        '${gpsCoordinate}',\n        '${userId}'\n    );\n`;\n\n// Assign the query and parameters to msg for execution\nmsg.query = sqlQuery;\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1400,
+        "wires": [
+            [
+                "79bd8c30a9641f40"
+            ]
+        ]
+    },
+    {
+        "id": "d22c7181c3e43847",
+        "type": "debug",
+        "z": "ca9656031769b061",
+        "g": "87ed13d0ae284d56",
+        "name": "debug 501",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "6359634c9e8da613",
+        "type": "function",
+        "z": "ca9656031769b061",
+        "d": true,
+        "g": "87ed13d0ae284d56",
+        "name": "Add New Sensors",
+        "func": "// Hardcoded SQL INSERT statement with placeholders\nvar sqlQuery = `\n    INSERT INTO SENSORS (\n        SENSORID, \n        SENSORTYPE, \n        SENSORNAME, \n        IP, \n        GPSCORD\n    ) VALUES (\n        $1, \n        $2, \n        $3, \n        $4, \n        $5\n    );\n`;\n\n// Hardcoded parameters\nvar params = ['bzbzs', 'zfe', 'AGT-Interns', '192.168.5.139:1880', 'pm'];\n\n// Assign the query and parameters to msg for execution\nmsg.query = sqlQuery;\nmsg.params = params;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1440,
+        "wires": [
+            [
+                "79bd8c30a9641f40"
+            ]
+        ]
+    },
+    {
+        "id": "ead502047907d635",
+        "type": "postgreSQLConfig",
+        "name": "",
+        "host": "127.0.0.1",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "mrtn",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "mrtn",
+        "userFieldType": "str",
+        "password": "24l1SyN0NGK5",
+        "passwordFieldType": "str"
+    }
+]
